@@ -2,10 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  previous_value = -100000000
+  previous_value = 0
   previous_key = ""
+  
   min_key = ""
-  min_value = -1000000000
+  min_value = 0
   
   if name_hash.empty?
     return nil
